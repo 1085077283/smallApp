@@ -1,0 +1,7 @@
+<template name='star'>
+  <view class='stars'>
+    <block wx:for="{{starClasses}}" wx:key='unique'>
+     <image class='star' src='{{item=="on"?"/images/full-star.png":"/images/no-full.png"}}' data-index="{{index}}" catchtap='changeStars'></image>
+    </block>
+  </view>
+</template>

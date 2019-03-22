@@ -1,0 +1,3 @@
+/* pages/selectmerchants/selectmerchants.wxss */
+@import '../../common/search/search.wxss';
+@import '../../common/catalog/catalog.wxss';

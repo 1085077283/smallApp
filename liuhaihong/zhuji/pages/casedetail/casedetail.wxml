@@ -1,0 +1,9 @@
+<!--pages/casedetail/casedetail.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<import src='../../common/footermenu/footermenu.wxml'/>
+<import src='../../common/call/call.wxml'/>
+<view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+    <template is='footermenu' data="{{funcLimits:funcLimits,footerMenuLimits:footerMenuLimits}}"></template>
+    <template is='call' data="{{funcLimits:funcLimits}}"></template>
+</view>

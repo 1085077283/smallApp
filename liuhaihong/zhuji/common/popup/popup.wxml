@@ -1,0 +1,13 @@
+<template name='popup'>
+  <view class='popup' hidden='{{!popup}}'>
+    <view class='list'>
+      <view class='item' wx:for="{{operate_list}}" catchtap='popupHandClick' wx:key="unique" data-id="{{item.id}}">
+        {{item.title}}
+      </view>
+    </view>
+    <view class='cancel' wx:if="{{cancel}}" catchtap='cancelTap'>
+      取消
+    </view>
+  </view>
+  <view class='mask' hidden='{{!popup}}' catchtap='cancelTap'></view>
+</template>

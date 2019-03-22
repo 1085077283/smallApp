@@ -1,0 +1,19 @@
+<!--pages/service/service.wxml-->
+<import src='../../common/star/star.wxml'/>
+<view class='container'>
+  <view class='title'>
+    <view class='text'>选择商家:</view>
+    <image class='arrow-right' src='/images/arrow-right.png'></image>
+  </view>
+  <view class='content'>  
+    <view class='star-main'>
+      <template is='star' data="{{starClasses:starClasses}}"></template>
+    </view>
+    <view class='inputs'>
+      <textarea class='input' placeholder-class='placeholder-input' placeholder='请输入您对商家的服务评价' value='{{refreshContent}}' bindinput='savaFeebback'></textarea>
+    </view>
+  </view>
+  <view class='btns'>
+    <view class='submit' catchtap='submitFeedback'>提交</view>
+  </view>
+</view>

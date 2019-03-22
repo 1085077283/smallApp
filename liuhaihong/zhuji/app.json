@@ -1,0 +1,49 @@
+{
+  "pages": [   
+    "pages/index/index",        
+    "pages/casedetail/casedetail",
+    "pages/order/order",    
+    "pages/welfare/welfare",
+    "pages/selectmerchants/selectmerchants",
+    "pages/service/service",
+    "pages/feedback/feedback",  
+    "pages/firstclassfication/firstclassfication",  
+    "pages/secondclassfication/secondclassfication",
+    "pages/thirdclassfication/thirdclassfication",
+    "pages/fourclassfication/fourclassfication",       
+    "pages/ordersubject/ordersubject",
+    "pages/agreement/agreement",  
+    "pages/member/member",
+    "pages/welfaredetail/welfaredetail"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "诸商A车管家",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9c9fa8",
+    "selectedColor": "#fff",
+    "borderStyle": "#050a1d",
+    "backgroundColor": "#050a1d",
+    "list": [
+      {
+        "selectedIconPath": "images/index-active.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/person-active.png",
+        "iconPath": "images/person.png",
+        "pagePath": "pages/member/member",
+        "text": "会员中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

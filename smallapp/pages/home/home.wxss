@@ -1,0 +1,147 @@
+/* pages/home/home.wxss */
+
+page {
+  background-color: #f3f3f3;
+}
+
+.slide-image {
+  width: 750rpx;
+  height: 300rpx;
+}
+
+swiper {
+  height: 300rpx;
+}
+
+.search {
+  background-color: #fff;
+  height: 50rpx;
+  color: #808080;
+  padding: 0px 50rpx;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  width: 420rpx;
+  border-radius: 25rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 110rpx;
+}
+
+.search_img {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 8rpx;
+  left: 450rpx;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.nav_name {
+  font-size: 26rpx;
+  color: #5a5a5a;
+}
+
+.nav_data {
+  width: 120rpx;
+  height: 90rpx;
+  text-align: center;
+}
+
+.navigation {
+  margin: 20rpx;
+  background-color: #fff;
+  padding: 32rpx 0;
+  border-radius: 10rpx;
+}
+
+.gongyi {
+  width: 82rpx;
+  height: 82rpx;
+  vertical-align: middle;
+}
+
+.big_font {
+  font-size: 32rpx;
+  color: #808080;
+}
+
+.show_data {
+  margin: 20rpx;
+  background-color: #fff;
+  padding: 32rpx 0;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.title {
+  margin: 20rpx 20rpx;
+  width: 640rpx;
+  height: 59rpx;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0 30rpx;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  color: #5a5a5a;
+  overflow: hidden;
+}
+
+.title_img {
+  height: 34rpx;
+  width: 34rpx;
+  vertical-align: sub;
+}
+
+.title text {
+  margin-left: 20rpx;
+}
+
+.data_list {
+  width: 710rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin: 20rpx;
+  padding: 10rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.data_name {
+  color: #ac1212;
+  font-size: 26rpx;
+  margin-left: 10rpx;
+}
+
+.more {
+  float: right;
+  font-size: 24rpx;
+  color: #a9a9a9;
+}
+
+.data_top {
+  line-height: 50rpx;
+}
+
+.data_img {
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align: sub;
+}
+.list1{
+  width: 154rpx;
+  height: 206rpx;
+  margin-bottom: 20rpx;
+}
+.list1_type{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,5 @@
+<template name="tip">
+    <view class="tip" animation="{{tipdata.animationData}}" style='background:{{tip.bg_color}};'>
+        <text style='color:{{tip.font_color}};'>{{tipdata.text}}</text>
+    </view>
+</template>

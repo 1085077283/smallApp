@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<import src="/common/popup/popup.wxml"/>
+<view class="container">
+   <swiper indicator-dots="{{carouselConfig.indicator_dots}}" autoplay="{{carouselConfig.autoPlay}}" interval="{{carouselConfig.interval}}" duration="{{carouselConfig.duration}}" indicator-color="{{carouselConfig.indicator_color}}" circular="{{carouselConfig.circular}}"
+    indicator-active-color="{{carouselConfig.indicator_active_color}}">
+    <block wx:for="{{carousel}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item.imgUrl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='detail'>
+    <view class='logo'>
+      <image class='logo-icon' src='{{businessConfig.logo}}'></image>
+    </view>
+    <view class='info'>
+      <view class='name'>{{businessConfig.name}}</view>
+      <view class='time'>{{businessConfig.business_hours}}</view>
+    </view>
+  </view>
+  <view class='tab'>
+    <view class='tab-item' wx:for="{{functionTab}}" wx:key="unique"  data-path="{{item.path}}" catchtap='goDesc'>
+      <image class='tab-icon' src='{{item.icon}}'></image>
+      <view class='tab-name'>
+        {{item.name}}
+      </view>
+    </view>
+  </view>
+  <view class='welfare'>
+    <view class='title' catchtap='welfareMore'>
+      <view class='text'>会员福利</view>
+      <view class='arrow'>
+        <view class='more'>更多</view>
+        <image class='arrow-right' src='/images/arrow-right.png'></image>
+      </view>
+    </view>
+    <view class='list'>
+      <view class='item' wx:for="{{welfare}}" wx:key="unique" catchtap='goActivityDetail' data-id='{{item.contentid}}'>
+        <view class='img'>
+          <image src='{{item.contour}}'></image>
+        </view>
+        <view class='title'>{{item.title}}</view>
+        <view class='arrow'>
+          <image class='arrow-right' src='/images/arrow-right.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+   <template is="popup" data="{{operate_list:operate_list,cancel:true,popup:popup}}"/>  
+</view>

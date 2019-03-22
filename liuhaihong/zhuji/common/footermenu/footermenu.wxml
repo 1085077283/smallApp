@@ -1,0 +1,15 @@
+<template name='footermenu'>
+  <view class='footermenu' wx:if="{{funcLimits}}">
+    <view class='item' wx:if="{{footerMenuLimits}}">
+      <image class='icon' src='/images/navigation.png'></image>
+      <view class='text'>导航</view>
+    </view>
+    <view class='item' wx:fi="{{footerMenuLimits}}">
+      <image class='icon' src='/images/mobile_1.png'></image>
+      <view class='text'>电话</view>
+    </view>
+    <view class='order {{first_login?"":"active"}}'>
+      预约
+    </view>
+  </view>
+</template>

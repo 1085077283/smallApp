@@ -1,0 +1,5 @@
+<template name='call'>
+  <view class='call' wx:if="{{!funcLimits}}">
+    <image class='call-icon' src='/images/mobile_2.png'></image>
+  </view>
+</template>

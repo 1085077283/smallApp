@@ -1,0 +1,9 @@
+.call{
+  position: fixed;
+  bottom: 60rpx;
+  right: 40rpx;
+}
+.call-icon{
+  width: 80rpx;
+  height: 80rpx;
+}

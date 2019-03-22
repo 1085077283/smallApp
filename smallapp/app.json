@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/my/my",    
+    "pages/shop/shop",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/cart/cart",
+    "pages/details/details"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蜜蜂订货",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#56b9e2",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+   "list": [
+    {
+      "pagePath": "pages/home/home",
+      "iconPath": "img/icon/home.png",
+      "selectedIconPath": "img/icon/home_act.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/shop/shop",
+      "iconPath": "img/icon/commodity.png",
+      "selectedIconPath": "img/icon/commodity_act.png",
+      "text": "订货"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "iconPath": "img/icon/shop.png",
+      "selectedIconPath": "img/icon/shop_act.png",
+      "text": "进货车"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "iconPath": "img/icon/my.png",
+      "selectedIconPath": "img/icon/my_act.png",
+      "text": "我的"
+    }
+    ]
+  },
+  "debug": false
+}

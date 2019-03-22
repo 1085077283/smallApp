@@ -1,0 +1,23 @@
+<view class='classification'>
+  <scroll-view class='list'>
+    <view class="list_name [{{item.id == listclick ? 'active' : ''}}]" wx:for="{{list}}" wx:key="item" data-id="{{item.id}}" data-name="{{item.name}}" bindtap='listclick'>{{item.className}}</view>
+  </scroll-view>
+  <scroll-view class='data' scroll-y="true">
+    <view class='main'>
+      <view wx:for="{{data}}" wx:key="item" class='main_list'>
+        <image class='main_img' src='{{item.img}}'></image>
+        <view class='item'>
+          <view class='main_name'>
+            {{item.goods_name}}
+          </view>
+          <view class='business'>
+            供应商：{{item.business}}
+          </view>
+          <view class='money'>
+            ￥{{item.minPrice}} ~ ￥{{item.maxPrice}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

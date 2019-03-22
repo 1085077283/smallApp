@@ -1,0 +1,2 @@
+/* pages/fourclassfication/fourclassfication.wxss */
+@import '../../common/catalog/catalog.wxss'

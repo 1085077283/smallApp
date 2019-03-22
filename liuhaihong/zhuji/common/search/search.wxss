@@ -1,0 +1,29 @@
+.search{
+  padding: 20rpx 0;
+}
+.search-main{
+  position: relative;
+  margin: 0 auto;
+  border:1px solid rgb(230, 230, 234);
+  border-radius: 10rpx;
+  background:#fff;
+  width: 722rpx;
+  height: 84rpx;
+}
+.input{
+  width: 100%;
+  height: 100%;
+}
+.placeholder-input{
+  text-align: center;
+  font-size: 28rpx;
+  color: #ccc;
+}
+.search-icon{
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  transform: translate(0,-50%);
+  width: 25rpx;
+  height: 25rpx;
+}

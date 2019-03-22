@@ -1,0 +1,48 @@
+<!--pages/order/order.wxml-->
+<import src="../../common/tip/tip.wxml" />
+<template is="tip" data="{{tipdata:tipdata}}" />
+<view>
+  <view class='title'>
+    请填写预约信息
+  </view>
+  <view class='order-list'>
+    <view class='item' catchtap='choiceCarType'>
+      <view class='item-left'>
+        <image class='star' src='/images/star.png'></image>
+        <view class='text'>购买金额</view>
+      </view>
+      <view class='item-right'>
+        <input type='text' placeholder='请输入购买金额' placeholder-class='placeholder_input' maxlength='15' bindinput='saveUsername'></input>
+      </view>
+    </view>
+    <view class='item'>
+      <view class='item-left'>
+        <image class='star' src='/images/star.png'></image>
+        <view class='text'>姓名</view>
+      </view>
+      <view class='item-right'>
+        <input type='text' placeholder='请输入姓名' placeholder-class='placeholder_input' maxlength='15' bindinput='saveUsername'></input>
+      </view>
+    </view>
+    <view class='item'>
+      <view class='item-left'>
+        <image class='star' src='/images/star.png'></image>
+        <view class='text'>联系电话</view>
+      </view>
+      <view class='item-right'>
+        <input type='number' placeholder='请输入手机号码' placeholder-class='placeholder_input' maxlength='15' bindinput='saveUserMobile'></input>
+      </view>
+    </view>
+  </view>
+  <view class='submit'>
+    <view class='submit-btn' catchtap='submit'>立即预约</view>
+  </view>
+  <view class='agreement'>
+    <image class='choice' src='/images/choice.png' hidden='{{!agreement}}' catchtap='switchTap'></image>
+    <image class='choice' src='/images/nochoice.png' hidden='{{agreement}}' catchtap='switchTap'></image>
+    <view class='agr-text'>
+        您已阅读并同意
+      <view class='agr-link' catchtap='goUserAgreement'>《个人信息保护说明》</view>
+    </view>
+  </view>
+</view>

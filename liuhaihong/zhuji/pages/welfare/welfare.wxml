@@ -1,0 +1,14 @@
+<!--pages/welfare/welfare.wxml-->
+<view class='welfare'>
+  <view class='list'>
+  <view class='item' wx:for="{{welfare}}" wx:key="unique" data-id="{{item.contentid}}" catchtap='goActivityDetail'>
+    <view class='img'>
+      <image src='{{item.contour}}'></image>
+    </view>
+    <view class='title'>{{item.title}}</view>
+    <view class='arrow'>
+      <image class='arrow-right' src='/images/arrow-right.png'></image>
+    </view>
+  </view>
+</view>
+</view>

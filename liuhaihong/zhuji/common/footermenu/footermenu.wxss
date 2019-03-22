@@ -1,0 +1,42 @@
+.footermenu{
+  background-color: rgb(230, 230, 235);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 99rpx;
+  display: flex;
+  align-items: center
+}
+.item{
+  width: 160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #050a1d;
+}
+.icon{
+  width: 44rpx;
+  height: 44rpx;
+  margin-top: 15rpx;
+}
+.order{
+  flex: 1;
+  height: 100%;
+  background: #050a1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 36rpx; 
+}
+.order.active{
+  position: relative;
+  z-index: 1001;
+  border:1px solid #fff;
+  border-bottom: none;
+  border-right: none;
+  background-color: #010309;
+}

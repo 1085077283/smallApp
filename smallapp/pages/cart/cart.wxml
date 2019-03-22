@@ -1,0 +1,10 @@
+<scroll-view scroll-y="true" style="height:1100rpx;" bindscrolltolower="loadMore">
+
+<checkbox-group bindchange="listenCheckboxChange">
+<!--这里用label显示内容，for循环写法 wx:for-items 默认item为每一项-->
+    <label style="display: flex;"  wx:for-items="{{items}}" wx:key='item'>
+    <!--value值和默认选中状态都是通过数据绑定在js中的-->
+        <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+</checkbox-group>
+</scroll-view>

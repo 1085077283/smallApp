@@ -1,0 +1,29 @@
+<view class='top'>
+  <image class='logo' src='/img/icon/LOGO.png'></image>
+</view>
+<form bindsubmit="formSubmit">
+  <view class='main'>
+    <view class='login_content'>
+        <image class='icon' src='/img/icon/home.png'></image>
+        <input class='input' placeholder='请输入账号' name='username'></input>
+    </view>
+     <view class='login_content list1'>
+        <image class='icon' src='/img/icon/home.png'></image>
+          <input class='input'placeholder="请输入密码" type='password' name='password'></input>
+    </view>
+     <view class='login_content list1'>
+        <image class='icon' src='/img/icon/home.png'></image>
+          <input class='input'placeholder="请再输入密码" type='password' name='passwordTwo'></input>
+    </view>
+     <view class='login_content list1'>
+        <image class='icon' src='/img/icon/home.png'></image>
+          <input class='input'placeholder="请输入手机号"  name='phone' bindblur='phone' ></input>
+    </view>
+     <view class='login_content list1'>
+        <image class='icon' src='/img/icon/home.png'></image>
+          <input class='input'placeholder="验证码"  name='code'></input>
+          <button class='code' bindtap='takecode'>发送验证码</button>
+    </view>
+  </view>
+  <button form-type='submit' class='btn'>确认注册</button>
+</form>

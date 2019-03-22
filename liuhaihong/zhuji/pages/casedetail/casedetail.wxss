@@ -1,0 +1,7 @@
+/* pages/casedetail/casedetail.wxss */
+@import "../../wxParse/wxParse";
+@import '../../common/footermenu/footermenu';
+@import '../../common/call/call';
+.wxParse{
+  padding-bottom: 110rpx;
+}

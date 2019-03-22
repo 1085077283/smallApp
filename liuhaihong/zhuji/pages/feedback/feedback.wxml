@@ -1,0 +1,9 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='container'>
+  <view class='main'>
+    <textarea class='input' placeholder='请提出您的宝贵意见，我们在收到后会及时查看。' placeholder-class='placeholder-class' value='{{refreshContent}}' bindinput='savaFeebback'></textarea>
+  </view>
+  <view class='btns'>
+    <view class='submit' catchtap='submitFeedback'>提交</view>
+  </view>
+</view>

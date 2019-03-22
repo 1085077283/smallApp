@@ -1,0 +1,7 @@
+<!--pages/selectmerchants/selectmerchants.wxml-->
+<import src='../../common/search/search.wxml'/>
+<import src='../../common/catalog/catalog.wxml'/>
+<view class='container'>
+  <template is='search'></template>
+  <template is='catalog' data='{{catalog_list:catalog_list,hasIcon:false}}'></template>
+</view>

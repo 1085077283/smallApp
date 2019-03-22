@@ -1,0 +1,6 @@
+<!--pages/ordersubject/ordersubject.wxml-->
+<view class='list'>
+  <view class='item' wx:for="{{car_list}}" wx:key="unique" data-index='{{index}}' catchtap='choiceType'>
+    <view class='text'>{{item.name}}</view>
+  </view>
+</view>

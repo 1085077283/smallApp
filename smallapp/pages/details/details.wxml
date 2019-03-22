@@ -1,0 +1,43 @@
+<view class='top_img'>
+  <image src='/img/icon/home_act.png'></image>
+</view>
+<view class='main_name'>
+  <view class='price'>￥{{goods.price}}</view>
+  <view>{{goods.goods_name}}</view>
+</view>
+<view class='specifications'>
+  <view class='spec_name'>规格</view>
+
+  <view class='choice'>
+    <view class='choice_name'>{{goodsDetail.gsp_name}}*{{goodsDetail.package_gsp}}</view>
+    <view class='choice_name'>{{goodsDetail.goodsCount}}</view>
+    <view class='choice_name'>原味</view>
+    <!-- 主容器 -->
+    <view class="stepper">
+      <!-- 减号 -->
+      <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+      <!-- 数值 -->
+      <input type="number" bindchange="bindManual" value="{{num}}" />
+      <!-- 加号 -->
+      <text class="normal" bindtap="bindPlus">+</text>
+    </view>
+  </view>
+</view>
+<view class='specifications'>
+  <view class='spec_name'>产品参数</view>
+  <view>品牌</view>
+  <view>配料</view>
+  <view>保质期</view>
+  <view>类别</view>
+  <view>储存方法</view>
+</view>
+<view class='specifications'>
+  <view class='spec_name'>供应商</view>
+  <view class='business_data'>
+    <image class='business_img' src='/img/icon/home_act.png'></image>
+    <view class='business_name'>
+      <view>坚强物理</view>
+      <view>坚强物理aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</view>
+    </view>
+  </view>
+</view>

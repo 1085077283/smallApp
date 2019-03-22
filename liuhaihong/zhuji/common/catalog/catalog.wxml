@@ -1,0 +1,8 @@
+<template name='catalog'>
+  <view class='list'>
+    <view class='item' wx:for="{{catalog_list}}" wx:key="unique" data-id='{{item.cid}}' catchtap='goNextLevelClassify'>
+      <image class='icon' src='{{item.cpurl}}' wx:if="{{hasIcon}}"></image>
+      <view class='name'>{{item.cname}}</view>
+    </view>
+  </view>
+</template>

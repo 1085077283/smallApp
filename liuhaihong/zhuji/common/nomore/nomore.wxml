@@ -1,0 +1,7 @@
+<template name='nomore'>
+  <view class='nomore'>
+    <view class='line'></view>
+    <view class='text'>没有更多，已经到底了</view>
+    <view class='line'></view>
+  </view>
+</template>

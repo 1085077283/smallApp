@@ -1,0 +1,8 @@
+<template name='search'>
+  <view class='search'>
+    <view class='search-main'>
+      <image class='search-icon' src='/images/search.png'></image>
+      <input type='text' class='input' placeholder-class='placeholder-input' placeholder='输入商家名称进行检索'></input>
+    </view>
+  </view>
+</template>

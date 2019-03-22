@@ -1,0 +1,66 @@
+/* pages/service/service.wxss */
+@import '../../common/star/star.wxss';
+
+.container{
+  padding-top: 10rpx;
+}
+.title{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #e9e9e9;
+  height: 100rpx;
+  background: #fff;
+  box-shadow: 0px 1rpx 0px 0px rgba(116, 116, 116, 0.15);
+  padding: 0 20rpx;
+}
+.title .text{
+  color: #050a1d;
+  font-size: 36rpx;
+}
+.content{
+  background: #fff;
+  padding-top:80rpx; 
+}
+.star-main{
+  margin-bottom:80rpx;
+}
+.inputs{
+  padding-bottom: 40rpx;
+}
+.input{
+  margin: 0 auto;
+  padding: 40rpx 30rpx;
+  border-radius: 10rpx;
+  background-color: rgb(242, 242, 242);
+  width: 670rpx;
+  height: 348rpx;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 30rpx;
+}
+.placeholder-input{
+  font-size: 28rpx;
+  color: #ccc;
+}
+.arrow-right{
+  width: 16rpx;
+  height: 28rpx;
+  margin-left: 40rpx;
+}
+.btns{
+  padding-top: 180rpx;
+}
+.submit{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+  color: #fff;
+  border-radius: 100rpx;
+  background-color: rgb(242, 101, 34);  
+  width: 420rpx;
+  height: 100rpx;
+  font-weight: 500;
+}

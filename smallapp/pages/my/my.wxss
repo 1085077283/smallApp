@@ -1,0 +1,87 @@
+/* pages/shop/shop.wxss */
+
+.my_back {
+  background-color: #89cac2;
+  width: 750rpx;
+  height: 320rpx;
+  overflow: hidden;
+}
+
+.login {
+  color: #fff;
+  width: 200rpx;
+  background-color: red;
+  font-size: 30rpx;
+  margin-top: 120rpx;
+}
+
+.my_main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  margin: 0 20rpx;
+  border-radius: 10rpx;
+  margin-top: -50rpx;
+  height: 108rpx;
+  margin-bottom: 20rpx;
+}
+
+.font-red {
+  font-size: 30rpx;
+  color: #cd2d2d;
+  margin-top: 15rpx;
+}
+
+.my_commodity {
+  font-size: 30rpx;
+  color: #5a5a5a;
+}
+
+.flex_main {
+  text-align: center;
+}
+
+.list {
+  background-color: #fff;
+  margin: 0 20rpx;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  color: #5a5a5a;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0 48rpx;
+  border-bottom: 1rpx solid #f3f3f3;
+}
+.footer {
+  background-color: #fff;
+  margin: 0 20rpx;
+  border-radius: 10rpx;
+  color: #5a5a5a;
+  padding: 22rpx 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.data_img {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.data_name {
+  font-size: 26rpx;
+  color: #5a5a5a;
+}
+
+.data {
+  width: 90rpx;
+  height: 90rpx;
+  text-align: center;
+}
+.footer{
+  margin-bottom: 20rpx;
+}
+
+.main_img{
+  width: 60rpx;
+  height: 60rpx;
+}

@@ -1,0 +1,120 @@
+/* pages/details/details.wxss */
+
+page {
+  color: #5a5a5a;
+  font-size: 24rpx;
+}
+
+.top_img {
+  height: 540rpx;
+  width: 100%;
+  background-color: #fff;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.top_img image {
+  width: 100%;
+  height: 100%;
+}
+
+.main_name {
+  margin: 4rpx 0;
+  height: 132rpx;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main_name {
+  font-size: 26rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price {
+  color: #f00;
+  font-size: 30rpx;
+}
+
+.specifications {
+  background-color: #fff;
+}
+
+.spec_name {
+  height: 74rpx;
+  line-height: 74rpx;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 1rpx;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+}
+.choice_name{
+  font-size: 26rpx;
+  line-height: 52rpx;
+  width: 150rpx;
+  height: 52rpx;
+  overflow: hidden;
+}
+
+.stepper {
+  width: 160rpx;
+  height: 52rpx;
+  /*给主容器设一个边框*/
+  border: 2rpx solid #ccc;
+  border-radius: 6rpx;
+}
+
+/*加号和减号*/
+
+.stepper text {
+  width: 38rpx;
+  line-height: 52rpx;
+  text-align: center;
+  float: left;
+}
+
+/*数值*/
+
+.stepper input {
+  width: 80rpx;
+  height: 52rpx;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26rpx;
+  /*给中间的input设置左右边框即可*/
+  border-left: 2rpx solid #ccc;
+  border-right: 2rpx solid #ccc;
+}
+
+/*普通样式*/
+
+.stepper .normal {
+  color: black;
+}
+
+/*禁用样式*/
+
+.stepper .disabled {
+  color: #ccc;
+}
+.business_img{
+  width: 120rpx;
+  height: 120rpx;
+}
+.business_data{
+  display:flex;
+
+}
+.business_name{
+  flex: 1;
+}

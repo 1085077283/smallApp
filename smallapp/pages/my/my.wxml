@@ -1,0 +1,55 @@
+<view class='my_back'>
+  <button wx:if='{{login}}' class='login' open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+  <view wx:else>
+  <image  src='{{userinfo.avatarUrl}}' class='main_img'></image>
+  <view>{{userinfo.nickName}}</view>
+  </view>
+</view>
+<view class='my_main'>
+  <view class='flex_main'>
+    <view class='font-red'>
+      11
+    </view>
+    <view class='my_commodity'>
+      关注商品
+    </view>
+  </view>
+  <view class='flex_main'>
+    <view class='font-red'>
+      11
+    </view>
+    <view class='my_commodity'>
+      关注货主
+    </view>
+  </view>
+</view>
+<!-- <view class='list'>
+  <text>我的订单</text>
+  <text></text>
+</view> -->
+<view class='footer'>
+  <view class='data'>
+    <image src='/img/icon/payment.png' class='data_img'></image>
+    <view class='data_name'>代付款</view>
+  </view>
+  <view class='data'>
+    <image src='/img/icon/deliver.png' class='data_img'></image>
+    <view class='data_name'>代发货</view>
+  </view>
+  <view class='data'>
+    <image src='/img/icon/collect .png' class='data_img'></image>
+    <view class='data_name'>代收货</view>
+  </view>
+  <view class='data'>
+    <image src='/img/icon/refundable.png' class='data_img'></image>
+    <view class='data_name'>退换货</view>
+  </view>
+</view>
+<view class='list'>
+  <text>收货地址</text>
+  <text></text>
+</view>
+<view class='list'>
+  <text>我的钱包</text>
+  <text></text>
+</view>

@@ -1,0 +1,51 @@
+<swiper autoplay="true" interval="2000" duration="1000" circular='ture'>
+  <block wx:for="{{imgUrls}}" wx:key="item">
+    <swiper-item class='swiper'>
+      <image src="{{item.img}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<navigator url="/pages/my/my">
+  <view class='search'>
+    <text>请输入您需要购买的商品</text>
+    <image src='/img/icon/search.png' class='search_img'></image>
+  </view>
+</navigator>
+<view class='navigation'>
+  <view class='nav_data'>
+    <image src='/img/icon/dingdna.png' class='nav_img'></image>
+    <view class='nav_name'>常用清单</view>
+  </view>
+  <view class='nav_data'>
+    <image src='/img/icon/NEW.png' class='nav_img'></image>
+    <view class='nav_name'>新品上市</view>
+  </view>
+  <view class='nav_data'>
+    <image src='/img/icon/A.png' class='nav_img'></image>
+    <view class='nav_name'>财务数据</view>
+  </view>
+  <view class='nav_data'>
+    <image src='/img/icon/shezhi.png' class='nav_img'></image>
+    <view class='nav_name'>问题反馈</view>
+  </view>
+</view>
+<view class='show_data' wx:if='{{display}}'>
+  <image src='/img/icon/gongyingshang.png' class='gongyi'></image>
+  <text class='big_font'>+添加供应商即可进货</text>
+</view>
+<view class='title'>
+  <image class='title_img' src='/img/icon/title.png'></image>
+  <text>最新公告：司机端上线，亲们快来赚外快啦~</text>
+</view>
+<view class='data_list' wx:for='{{floor}}' wx:key='{{item}}'>
+  <view class='data_top'>
+    <image src='/img/icon/bast.png' class='data_img'></image>
+    <text class='data_name'>{{item.title}}</text>
+    <text class='more' data-more_link='{{item.more_link}}'>更多</text>
+  </view>
+  <view class='list1_type' >
+    <image wx:for='{{item.lines_info}}' wx:key='{{item}}' class='list1' src='{{item.img_url}}'></image>
+
+  </view>
+</view>
+

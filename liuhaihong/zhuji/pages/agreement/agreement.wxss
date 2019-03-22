@@ -1,0 +1,41 @@
+/* pages/agreement/agreement.wxss */
+page {
+  background: #f2f2f2;
+  height: 100%;
+  width: 750rpx;
+  font-family: Ping Fang SC, SourceHanSansCN-Normal;
+}
+
+.protect-info-content {
+  padding: 40rpx 24rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-content-title {
+  display: flex;
+  flex-direction: row;
+  font-size: 28rpx;
+  color: #050a1d;
+}
+
+.personal-section {
+  padding: 30rpx 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 24rpx;
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.english-margin{
+    display: flex;
+    flex-direction: column;
+    padding-left:20rpx;
+}
+
+.small-english{
+    display: flex;
+    flex-direction: row;
+}

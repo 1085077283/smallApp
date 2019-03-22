@@ -1,0 +1,3 @@
+<!--pages/fourclassfication/fourclassfication.wxml-->
+<import src="../../common/catalog/catalog.wxml"/>
+<template is="catalog" data="{{catalog_list:catalog_list,hasIcon:true}}"></template>
